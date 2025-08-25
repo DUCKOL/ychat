@@ -299,5 +299,5 @@ export const getWelcomeMessageText = (
     modelInfo = `Cognito 模型: ${cognitoModelNameFromDetails}, Muse 模型: ${museModelNameFromDetails}`;
   }
 
-  return `欢迎使用Dual AI Chat！当前模式: ${modeDescription}。\n${modelInfo}.\n在下方输入您的问题或上传图片。${MessageSender.Cognito} 和 ${MessageSender.Muse} 将进行讨论，然后 ${MessageSender.Cognito} 会将最终答案呈现在右侧的记事本中。`;
+  return `欢迎使用Ychatp！当前模式: ${modeDescription}。\n${modelInfo}.\n在下方输入您的问题或上传图片。${MessageSender.Cognito} 和 ${MessageSender.Muse} 将进行讨论，然后 ${MessageSender.Cognito} 会将最终答案呈现在右侧的记事本中。`;
 };
